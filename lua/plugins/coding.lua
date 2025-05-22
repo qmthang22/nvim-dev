@@ -50,25 +50,25 @@ return {
   },
 
   -- ✅ GitHub Copilot (AI hỗ trợ code thông minh)
-  {
-    "zbirenbaum/copilot.lua",
-    opts = {
-      suggestion = {
-        auto_trigger = true, -- Tự động gợi ý khi đang gõ
-        keymap = {
-          accept = "<C-l>", -- Chấp nhận gợi ý đầy đủ
-          accept_word = "<M-l>", -- Chấp nhận một từ
-          accept_line = "<M-S-l>", -- Chấp nhận cả dòng
-          next = "<M-]>", -- Gợi ý tiếp theo
-          prev = "<M-[>", -- Gợi ý trước đó
-          dismiss = "<C-]>", -- Ẩn gợi ý
-        },
-      },
-      filetypes = {
-        markdown = true, -- Bật Copilot cho Markdown
-        help = true, -- Bật Copilot cho file help
-        -- Các filetype khác sẽ dùng mặc định của Copilot
-      },
-    },
-  },
+  --   {
+  --     "zbirenbaum/copilot.lua",
+  --     opts = {
+  --       suggestion = {
+  --         auto_trigger = true, -- Tự động gợi ý khi đang gõ
+  --         keymap = {
+  --           accept = "<C-l>", -- Chấp nhận gợi ý đầy đủ
+  --           accept_word = "<M-l>", -- Chấp nhận một từ
+  --           accept_line = "<M-S-l>", -- Chấp nhận cả dòng
+  --           next = "<M-]>", -- Gợi ý tiếp theo
+  --           prev = "<M-[>", -- Gợi ý trước đó
+  --           dismiss = "<C-]>", -- Ẩn gợi ý
+  --         },
+  --       },
+  --       filetypes = {
+  --         markdown = true, -- Bật Copilot cho Markdown
+  --         help = true, -- Bật Copilot cho file help
+  --         -- Các filetype khác sẽ dùng mặc định của Copilot
+  --       },
+  --     },
+  --   },
 }
