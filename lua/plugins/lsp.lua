@@ -13,7 +13,6 @@ return {
         "tailwindcss-language-server", -- hỗ trợ LSP cho TailwindCSS
         "typescript-language-server", -- LSP cho TypeScript
         "css-lsp",
-        "sqls", -- LSP cho CSS
       })
     end,
   },
@@ -92,18 +91,6 @@ return {
           },
         },
 
-        sqls = {
-          settings = {
-            sqls = {
-              connections = {
-                {
-                  driver = "mysql",
-                  dataSourceName = "obito:2005@tcp(127.0.0.1:3306)/",
-                },
-              },
-            },
-          },
-        },
         -- 👉 YAML
         yamlls = {
           settings = {
