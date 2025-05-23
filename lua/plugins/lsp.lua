@@ -72,7 +72,24 @@ return {
         },
 
         -- 👉 HTML
-        html = {},
+        html = {
+          filetypes = {
+            "html",
+            "htmldjango",
+          },
+        },
+
+        pyright = {
+          settings = {
+            python = {
+              analysis = {
+                typeCheckingMode = "basic",
+                autoSearchPaths = true,
+                useLibraryCodeForTypes = true,
+              },
+            },
+          },
+        },
 
         -- 👉 YAML
         yamlls = {
